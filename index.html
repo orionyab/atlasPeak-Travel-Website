@@ -7,58 +7,130 @@
 </head>
 <body>
   <header>
-    <section>
-      <h1>AtlasPeak Travel Website</h1>
-      <nav>
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="destinations.html">Destinations</a></li>
-          <li><a href="packages.html">Packages</a></li>
-          <li><a href="book-a-trip.html">Book a Trip</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
+    <p>AtlasPeak Travel</p>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="destinations.html">Destinations</a></li>
+        <li><a href="packages.html">Packages</a></li>
+        <li><a href="book-a-trip.html">Book a Trip</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
     </nav>
-    </section>
   </header>
   <main>
     <section>
-      <h2>AtlasPeak Travel: Discover Africa, Book Your Journey</h2>
+      <h1>Conquer Africa's Remote Summits and Untamed Wilderness</h1>
+      <p>Guided treks and trips across Africa, led by local guides. Choose a country, pick your area, watch it in photos and video, and book your journey in a few minutes.</p>
     </section>
     <section>
       <h2>Welcome to AtlasPeak</h2>
       <p>AtlasPeak Travel helps you explore the most beautiful places in Africa. Choose a country, pick the area you want to visit, watch it in photos and video, and book your trip in a few minutes.</p>
-      <img src="" alt="">
-      <a href="destinations.html">Destinations</a>
-      <a href="book-a-trip.html">Book a Trip</a>
+      <a href="book-a-trip.html">Plan a Trip</a>
+      <a href="destinations.html">Browse Destinations</a>
+    </section>
+    <div>
+      <form action="destinations.html" method="get">
+        <fieldset>
+          <legend>Find your Trip</legend>
+          <p>
+            <label for="search-country">Destinations Country</label>
+            <br>
+            <select name="country" id="search-country">
+              <option value="">Select Country</option>
+              <option value="morocco">Morocco</option>
+              <option value="tanzania">Tanzania</option>
+              <option value="namibia">Namibia</option>
+              <option value="ghana">Ghana</option>
+              <option value="kenya">Kenya</option>
+            </select>
+          </p>
+          <p>
+            <label for="search-level">Difficulty</label>
+            <br>
+            <select name="level" id="search-level">
+              <option value="">Select Level</option>
+              <option value="easy">Easy</option>
+              <option value="moderate">Moderate</option>
+              <option value="challenging">Challenging</option>
+            </select>
+          </p>
+          <p>
+            <label for="search-month">Travel Month</label>
+            <br>
+            <input type="month" id="search-month" name="month">
+          </p>
+          <p>
+            <button type="submit">Search</button>
+          </p>
+        </fieldset>
+      </form>
+    </div>
+    <section>
+      <h2>Why Travellers Choose Us?</h2>
+      <ol>
+        <li>5 countries to explore</li>
+        <li>Local guides on every trip</li>
+        <li>Photos, video and audio guide for every area</li>
+        <li>Booking confirmed by email or phone</li>
+      </ol>
     </section>
     <section>
       <h2>Featured Countries</h2>
-      <ul>Morocco
-        <li>Marrakech</li>
-        <li>Fez</li>
-        <li>Chefchaouen</li>
-      </ul>
-      <ul>Tanzania
-        <li>Mount Kilimanjaro</li>
-        <li>Ngorongoro Crater</li>
-        <li>Zanzibar</li>
-      </ul>
-      <ul>Namibia
-        <li>Spitzkoppe</li>
-        <li>Etosha National Park</li>
-        <li>Swakopmund</li>
-      </ul>
-      <ul>Ghana
-        <li>Accra</li>
-        <li>Kumasi</li>
-        <li>Volta Region</li>
-      </ul>
-      <ul>Kenya
-        <li>Nairobi</li>
-        <li>Maasai Mara</li>
-        <li>Mount Kenya</li>
-      </ul>
+      <article>
+        <h3><a href="morocco.html">Morocco</a></h3>
+        <ul>
+          <li>Marrakech</li>
+          <li>Fez</li>
+          <li>Chefchaouen</li>
+        </ul>
+      </article>
+      <article>
+        <h3><a href="tanzania.html">Tanzania</a></h3>
+        <ul>
+          <li>Mount Kilimanjaro</li>
+          <li>Ngorongoro Crater</li>
+          <li>Zanzibar</li>
+        </ul>
+      </article>
+      <article>
+        <h3><a href="namibia.html">Namibia</a></h3>
+        <ul>
+          <li>Spitzkoppe</li>
+          <li>Etosha National Park</li>
+          <li>Swakopmund</li>
+        </ul>
+      </article>
+      <article>
+        <h3><a href="ghana.html">Ghana</a></h3>
+        <ul>
+          <li>Accra</li>
+          <li>Kumasi</li>
+          <li>Volta Region</li>
+        </ul>
+      </article>
+      <article>
+        <h3><a href="kenya.html">Kenya</a></h3>
+        <ul>
+          <li>Nairobi</li>
+          <li>Maasai Mara</li>
+          <li>Mount Kenya</li>
+        </ul>
+      </article>
+    </section>
+    <section>
+      <h2>Why Travel With Us?</h2>
+      <dl>
+        <dt>Local Guides</dt>
+        <dd>Our guides know the land, the culture and the best places to see.</dd>
+        <dt>Clear Prices</dt>
+        <dd>What you see in our packages is what you pay, with no hidden fees.</dd>
+        <dt>Small Groups</dt>
+        <dd>Smaller groups give a better experience and less impact on the places we visit.</dd>
+        <dt>Flexible Booking</dt>
+        <dd>Need to change your dates? Contact us and we will help you reschedule.</dd>
+      </dl>
     </section>
     <section>
       <h2>How Booking Works?</h2>
@@ -70,19 +142,61 @@
       </ol>
     </section>
     <section>
-      <h2>Why Travel With Us?</h2>
-      <p></p>
-      <p></p>
-      <p></p>
+      <h2>Signature Trip: Mount Kilimanjaro</h2>
+      <img src="Images/Kilimanjaro.jpg" alt="Snow-capped summit of Mount Kilimanjaro above the clouds" width="600" height="400">
+      <p>A seven-day climb through rainforest, moorland and alpine desert to the highest point in Africa.</p>
+      <ol>
+        <li>Machame Gate and the rainforest trail</li>
+        <li>Shira Plateau and Lava Tower</li>
+        <li>Barranco Wall and Karanga Camp</li>
+        <li>Summit day at Uhuru Peak</li>
+      </ol>
+      <a href="book-a-trip.html">Book this trip</a>
+      <p>Have questions? Reach out to us and we will help you plan your trip.</p>
+      <a href="contact.html">Contact Us</a>
+    </section>
+    <section>
+      <h2>What Travellers Say</h2>
+      <p>These are sample reviews written for this student project.</p>
+      <dl>
+        <dt>Sarah L., USA</dt>
+        <dd>"AtlasPeak Travel made our trip to Africa unforgettable. The guides were knowledgeable and friendly, and the itinerary was perfect."</dd>
+        <dt>James K., UK</dt>
+        <dd>"I never thought I could climb Mount Kilimanjaro, but with AtlasPeak's support, I did it! Highly recommend their services."</dd>
+        <dt>Linda M., Canada</dt>
+        <dd>"The small group sizes and local guides made our safari in Kenya an amazing experience."</dd>
+      </dl>
+    </section>
+    <section>
+      <h2>Ready to Find Your Summit?</h2>
+      <p>Choose your destinations and book your trip with AtlasPeak today.</p>
+      <a href="book-a-trip.html">Book a trip</a>
+      <a href="packages.html">See All Packages</a>
     </section>
   </main>
   <footer>
+    <p>AtlasPeak Travel</p>
+    <p>Guided treks and trips across Africa.</p>
+    <ul>
+      <li><a href="destinations.html">Destinations</a></li>
+      <li><a href="packages.html">Packages</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <form action="#" method="post">
+      <p>
+        <label for="newsletter-email">Subscribe to our newsletter</label>
+        <br>
+        <input type="email" id="newsletter-email" name="email" required placeholder="example@gmail.com">
+      </p>
+      <p>
+        <button type="submit">Subscribe</button>
+      </p>
+    </form>
+    <address>
+      <p>Email: <a href="mailto:atlaspeak@gmail.com">atlaspeak@gmail.com</a></p>
+    </address>
     <p>&copy; 2026 AtlasPeak Travel. All rights reserved.</p>
-    <p>
-      <a href="mailto:atlaspeak@gmail.com">Email</a><br><br>
-      <a href="contact.html">Contact</a><br><br>
-      <a href="about.html">About</a>
-    </p>
   </footer>
 </body>
 </html>
