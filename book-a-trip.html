@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AtlasPeak Travel | Book a Trip</title>
+</head>
+<body>
+  <header>
+    <p>AtlasPeak Travel</p>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="destinations.html">Destinations</a></li>
+        <li><a href="packages.html">Packages</a></li>
+        <li><a href="book-a-trip.html">Book a Trip</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section>
+      <h1>Book Your Trip</h1>
+      <p>Ready for your next adventure? Complete the form below to request your trip with AtlasPeak Travel.</p>
+    </section>
+    <section>
+      <h2>Travel Booking Form</h2>
+      <form action="#" method="post">
+        <fieldset>
+          <legend>Personal Information</legend>
+          <p>
+            <label for="name">Full Name:</label><br>
+            <input type="text" id="name" name="name" required placeholder="Enter your full name">
+          </p>
+          <p>
+            <label for="email">Email Address:</label><br>
+            <input type="email" id="email" name="email" required placeholder="example@gmail.com">
+          </p>
+          <p>
+            <label for="phone">Phone Number:</label><br>
+            <input type="tel" id="phone" name="phone" placeholder="Enter your phone number">
+          </p>
+        </fieldset>
+        <fieldset>
+          <legend>Trip Information</legend>
+          <p>
+            <label for="destination">Choose Your Destination:</label><br>
+            <select id="destination" name="destination" required>
+              <option value="">Select a destination</option>
+              <option value="Morocco">Morocco</option>
+              <option value="Tanzania">Tanzania</option>
+              <option value="Namibia">Namibia</option>
+              <option value="Kenya">Kenya</option>
+              <option value="Ghana">Ghana</option>
+            </select>
+          </p>
+          <p>
+            <label for="travel-date">Travel Date:</label><br>
+            <input type="date" id="travel-date" name="travel-date" required>
+          </p>
+          <p>
+            <label for="travelers">Number of Travelers:</label><br>
+            <input type="number" id="travelers" name="travelers" min="1" required placeholder="1">
+          </p>
+          <p>
+            <label for="package">Choose a Package:</label><br>
+            <select id="package" name="package">
+              <option value="">Select a package</option>
+              <option value="Adventure">Adventure Tour</option>
+              <option value="Cultural">Cultural Tour</option>
+              <option value="Wildlife">Wildlife Safari</option>
+              <option value="Beach">Beach Holiday</option>
+            </select>
+          </p>
+          <p>
+            <label for="message">Additional Information:</label><br>
+            <textarea id="message" name="message" rows="5" cols="30" placeholder="Tell us about your travel plans..."></textarea>
+          </p>
+        </fieldset>
+        <p>
+          <button type="submit">Submit Booking Request</button>
+          <button type="reset">Clear Form</button>
+        </p>
+      </form>
+    </section>
+    <section>
+      <h2>Need Help?</h2>
+      <p>Have questions about your trip? Contact our team for assistance.</p>
+      <p>Email: <a href="mailto:atlaspeak@gmail.com">atlaspeak@gmail.com</a></p>
+      <a href="contact.html">Contact Us</a>
+    </section>
+  </main>
+  <footer>
+    <p>AtlasPeak Travel</p>
+    <p>Guided treks and trips across Africa.</p>
+    <ul>
+      <li><a href="destinations.html">Destinations</a></li>
+      <li><a href="packages.html">Packages</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <address>
+      Email: <a href="mailto:atlaspeak@gmail.com">atlaspeak@gmail.com</a>
+    </address>
+    <p>&copy; 2026 AtlasPeak Travel. All rights reserved.</p>
+  </footer>
+</body>
+</html>
